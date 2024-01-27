@@ -47,10 +47,7 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        },
-        "classmap": [
-            "app/Classes"
-        ]
+        }
     },
     "autoload-dev": {
         "psr-4": {
@@ -86,6 +83,9 @@
         "sort-packages": true,
         "platform": {
             "php": "8.0.17"
+        },
+        "allow-plugins": {
+            "php-http/discovery": true
         }
     },
     "minimum-stability": "dev",
